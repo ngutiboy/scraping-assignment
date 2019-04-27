@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Mongo Scraper</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   <nav>
+       <div class="fluid-container">
+           <ul>
+               <li><a href="" id="mongo">Mongo Scraper</a></li>
+               <li><a href="/scrape" id="mongo"> Home</a></li>
+               <li><a href="#" id="mongo">Saved Articles</a></li>
+               <li><button class="btn btn-danger" id="new-article">Scrape New Articles!</button></li>
+               <li><button class="btn btn-danger" id="clear">Clears articles!</button></li>
+           </ul>
+       </div>
+   </nav>
+   <div class="fluid-container">
+       <div class="position">
+           <img src="./image/img.jpg" alt="scraping">
+           <h1>MONGO SCRAPER</h1>
+       </div>
+       <div id="show">
+           <p id="p">Uh Oh. Looks like we don't have any new articles.</p>
+           <div class="card">
+               <div class="card-header head ">
+                  <p>What Would You Like To Do?</p>
+               </div>
+               <div class="card-body bod">
+                    <a href="/scrape"> Try Scraping New Articles </a>
+                    <a href=""> Go to Saved Articles</a>
+               </div>
+           </div>
+       </div>
+
+
+       <div id="scrape">
+       </div>
+       <footer>
+           <p>website mongo scraper</p>
+       </footer>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>

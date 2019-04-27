@@ -1,0 +1,125 @@
+styles.css
+body{
+   background:cornsilk;
+}
+nav{
+ background: blue;
+ padding: 10px;
+ min-height: 100px;
+
+}
+
+ul li{
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+}
+
+ul li a {
+   list-style: none;
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+ul li a:hover {
+   color: #fff;
+   text-decoration: none;
+}
+ul li .btn:hover{
+   background: green;
+}
+ul.li #try {
+   background: none;
+   color: #fff;
+   border: none;
+}
+ul li #mongo{
+   font-size: 22px;
+   text-align: center;
+}
+
+.position img {
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   max-height: 500px;
+   opacity: 0.4;
+}
+.position h1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 50px;
+   text-align: center;
+   width: 30%;
+}
+#show {
+   min-height: 300px;
+}
+
+#show  #p {
+   background: lightcoral;
+   min-height: 40px;
+   text-align: center;
+   font-size: 22px;
+   padding: 15px;
+   margin: 20px;
+   border-radius: 5px;
+}
+.card{
+   margin: 20px;
+}
+.card .head{
+   background: blue;
+   min-height: 80px;
+   text-align: center;
+   font-size: 20px;
+   padding-top: 20px;
+   color: #fff;
+}
+.card .bod a{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+}
+#scrape {
+   display: none;
+}
+.card #title {
+   background: blue;
+   min-height: 80px;
+   padding: 15px;
+   color: #fff;
+   font-size: 20px;
+}
+.card #title #save-article {
+   float: right;
+   background: lightgreen;
+   color: #000;
+   border-radius: 3px;
+   margin-right: 10px;
+
+}
+
+
+footer {
+   background: blue;
+   min-height: 80px;
+   position: relative;
+   margin-bottom: 0;
+}
+footer p {
+   position: absolute;
+   background: darkblue;
+   bottom: 0;
+   color: #fff;
+   width: 100%;
+   margin: 0;
+   padding-left: 8px;
+}
